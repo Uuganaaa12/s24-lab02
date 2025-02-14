@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(2, 3);
         Circle circle = new Circle(4);
-        Square square = new Square(6.0);
+        Square square = new Square(4.0);
 
         Renderer renderer1 = new Renderer(rectangle);
         Renderer renderer2 = new Renderer(circle);
